@@ -1,21 +1,24 @@
 body {
     background-color: #2A2C2F;
     max-width: 1280px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
 }
 
 .header {
     margin: 30px 0 80px;
-}
-
-.header_line {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .header_logo {
     margin: 0 0 0 50px;
+    width: 176px;
 }
 
 .header_languages {
@@ -39,7 +42,7 @@ body {
 
 /* section travel in Russia start */
 .lead {
-    margin: 0 0 110px;
+    margin: 0 0 92px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +91,9 @@ body {
 
 /* section intro start */
 .intro {
-margin: 0 0 92px;
+    padding: 0 0 92px;
+    max-width: 984px;
+    width: 100%;
 }
 
 .intro_title {
@@ -121,6 +126,9 @@ margin: 0 0 92px;
 /* section intro end */
 
 /* section photo-grid start */
+.photo-grid {
+    margin: 0 0 92px;
+}
 
 .photo-grid_container {
     display: grid;
@@ -128,3 +136,131 @@ margin: 0 0 92px;
     gap: 16px;
 }
 
+/* section photo-grid end */
+.places {
+
+}
+
+.place-grid_container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 460px 484px;
+
+
+}
+
+.place_title {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #ffffff; 
+}
+
+.place_image {
+
+}
+
+.place_info {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaaaaa;
+    letter-spacing: 2px;
+}
+
+.place_subtitle {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.place_subtitle:hover {
+    text-decoration: underline;
+}
+
+.place_desc {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px; 
+    color: #ffffff;
+    max-width: 484px;  
+}
+/* section places start */
+
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    column-gap: 40px;
+    row-gap: 48px;
+
+}
+
+.place__title {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #ffffff; 
+}
+
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.place__url-heading {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaaaaa;
+    letter-spacing: 2px;
+}
+
+.place__link {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.place__image {
+    max-width: 460px;
+}
+
+.place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.place__paragraph {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+    color: #ffffff;
+}
+/* section places end */
