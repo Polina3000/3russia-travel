@@ -132,62 +132,7 @@ body {
 }
 
 /* section photo-grid end */
-.places {
 
-}
-
-.place-grid_container {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 460px 484px;
-
-
-}
-
-.place_title {
-    margin: 0;
-    font-family: Inter;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #ffffff; 
-}
-
-.place_image {
-
-}
-
-.place_info {
-    margin: 0;
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #aaaaaa;
-    letter-spacing: 2px;
-}
-
-.place_subtitle {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.place_subtitle:hover {
-    text-decoration: underline;
-}
-
-.place_desc {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29.34px; 
-    color: #ffffff;
-    max-width: 484px;  
-}
 /* section places start */
 
 .places {
