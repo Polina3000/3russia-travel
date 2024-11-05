@@ -16,28 +16,23 @@ body {
     width: 100%;
 }
 
-.header_logo {
+.header__logo {
     margin: 0 0 0 50px;
     width: 176px;
 }
 
-.header_languages {
+.header__languages {
     display: flex;
     margin: 0 50px 0 0;
 }
 
-.language {
+.header__lang-link {
     margin: 0 20px 0 0;
     font-family: "Inter", serif;
     font-weight: normal;
     text-align: center;
     font-size: 24px;
     color: #FFFFFF;
-    cursor: pointer;
-}
-
-.language:hover {
-    text-decoration: underline;
 }
 
 /* section travel in Russia start */
