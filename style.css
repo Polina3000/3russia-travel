@@ -91,7 +91,7 @@ body {
     width: 100%;
 }
 
-.intro_title {
+.intro__title {
     margin: 0 0 40px;
     font-family: "Inter";
     font-weight: 900;
@@ -100,7 +100,7 @@ body {
     color: #FFFFFF;
 }
 
-.intro_desc {
+.intro__text {
     margin: 0 0 33px;
     max-width: 690px;
     font-family: "Inter";
@@ -110,7 +110,7 @@ body {
     color: #ffffff;  
 }
 
-.intro_info {
+.intro__list {
     margin: 0;
     font-family: "Inter";
     font-weight: 700;
