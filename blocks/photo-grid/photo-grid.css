@@ -2,6 +2,15 @@
     padding: 92px 0 0;
     max-width: 1184px;
     display: grid;
-    grid-template-columns: 284px 284px 284px 284px;
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
+}
+
+@media screen and (max-width: 1279px) { 
+    .photo-grid {
+        max-width: 928px;
+        justify-items: stretch;
+        grid-template-columns: repeat(3, 300px);
+        gap: 14px;
+    }
 }
