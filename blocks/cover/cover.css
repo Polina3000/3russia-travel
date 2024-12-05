@@ -1,6 +1,6 @@
 .cover {
     padding: 0;
-    background-image: url(/img/__background.png);
+    background-image: url(../../img/__background.png);
     background-size: cover;
     width: 100%;
     max-width: 1184px;
