@@ -1,4 +1,4 @@
-## [Путешествие по России] https://github.com/Polina3000/3russia-travel
+## [Путешествие по России] https://github.com/Polina3000/3russia-travel/index.html
 
 ---
 
